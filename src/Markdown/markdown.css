@@ -1,0 +1,70 @@
+body{
+    background-color: #c7dfe9;
+}
+.BigContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.editNav, .previewNav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 70px;
+    background-color: #87b5b5;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+.editNav div, .previewNav div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.freecodecamp{
+    margin-right:10px;
+    margin-left:10px;
+    font-size: 25px;
+}
+.collapseIcon{
+    margin-right:10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.collapseIcon:hover{
+    color:#228080;
+}
+.editContainer{
+    width:70%;
+    border-top: 1px  solid black;
+}
+.previewContainer{
+    width:80%;
+    border-top: 1px  solid black;
+}
+
+#editor{
+    width:100%;
+    height:100%;
+    outline: none;
+    min-height: 250px;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#previewer{
+    width:100%;
+    height:100%;
+    outline: none;
+    min-height: 300px;   
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:2%;
+    text-align: justify;
+    
+}
+.developer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
