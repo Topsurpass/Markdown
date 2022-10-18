@@ -18,7 +18,7 @@ const  MarkdownRedux = ()=> {
         setInput(event.target.value);
     }
     const editHeight ={
-        minHeight: "100vh"
+        minHeight: "90vh"
     }
     if(editor === true){
         return (
