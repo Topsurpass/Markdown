@@ -62,7 +62,7 @@ const  MarkdownRedux = ()=> {
                     type={<div id='previewer' dangerouslySetInnerHTML={{__html:md.render(input)}} />}
                 />
             </div> 
-            <div className='developer'>&copy;Olowosuyi Temitope Abiodun</div>         
+            <div className='developer'>&copy;Temz</div>         
         </div>  
     )             
 }
